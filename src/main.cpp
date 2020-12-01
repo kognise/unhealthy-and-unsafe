@@ -29,7 +29,7 @@ extern "C" void setup(ModInfo& info) {
 
 MAKE_HOOK_OFFSETLESS(HealthWarningFlowCoordinator_DidActivate, void, Il2CppObject* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
     HealthWarningFlowCoordinator_DidActivate(self, firstActivation, addedToHierarchy, screenSystemEnabling);
-    il2cpp_utils::RunMethod(self, "GoToNextScene");
+    il2cpp_utils::RunMethodUnsafe(self, "GoToNextScene");
 }
 
 // Called later on in the game loading - a good time to install function hooks
