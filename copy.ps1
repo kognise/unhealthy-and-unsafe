@@ -4,6 +4,6 @@ if ($?) {
     if ($?) {
         adb shell am force-stop com.beatgames.beatsaber
         adb shell am start com.beatgames.beatsaber/com.unity3d.player.UnityPlayerActivity
-        adb logcat main-modloader:W QuestHook[unhealthyandunsafe`|v0.1.2]:* AndroidRuntime:E *:S > cat.log
+        adb logcat main-modloader:W QuestHook[unhealthyandunsafe`|v0.1.3]:* AndroidRuntime:E *:S > cat.log
     }
 }
