@@ -10,9 +10,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-functions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 
-// Codegen includes for nice utilities
-#include "codegen/include/GlobalNamespace/HealthWarningFlowCoordinator.hpp"
-
 // Define these functions here so that we can easily read configuration and log information from other files
 Configuration& getConfig();
-const Logger& getLogger();
+Logger& getLogger();
